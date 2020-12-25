@@ -1,85 +1,96 @@
-body{
+body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 ;
+    margin: 0;
     background-color: #f3f9fb;
-    color:#113f67;
-}
-h1  {
-    color:#87c0cd;
-    font-family: 'Great Vibes', cursive;
-    font-size:5.625rem ;
+    color: #113f67;
 }
 
-h2   {
+h1 {
+    color: #87c0cd;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
     color: #87c0cd;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
 }
-h3  {
-    color:#226597 ;
+
+h3 {
+    color: #226597;
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
 
 }
-a:hover{
+
+a:hover {
     color: #f3f9fb;
     font-family: 'Montserrat', sans-serif;
 }
 
-hr{
+hr {
     width: 25%;
     border: solid;
-    color:#87c0cd
+    color: #87c0cd
 }
+
 /************ Classes ********/
 
-.Top-container{
+.Top-container {
     background-color: #dbf5fd;
-    padding-top: 100px ;
+    padding-top: 100px;
     position: relative;
 }
-.Mid-container{
+
+.Mid-container {
     text-align: center;
 }
-.Bot-container{
+
+.Bot-container {
     margin: 20px auto 0;
     background-color: #226597;
     padding: 40px;
 
 }
 
-.top-cloud{
+.top-cloud {
     position: absolute;
-    right:300px;
-    top:50px;
+    right: 300px;
+    top: 50px;
 
-}   
-.bot-cloud{
+}
+
+.bot-cloud {
     position: absolute;
     bottom: 250px;
     left: 300px;
 }
-.pro{
+
+.pro {
     text-decoration: underline;
 }
-.personal{
+
+.personal {
     margin: 100px auto 20px;
     border-radius: 50%;
 
 }
+
 .skill-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
 }
+
 .BUTTON_KMX {
     background: #3D94F6;
     background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
@@ -104,7 +115,7 @@ hr{
     cursor: pointer;
     text-align: center;
 }
- 
+
 .BUTTON_KMX:hover {
     border: solid #337FED 1px;
     background: #1E62D0;
@@ -119,15 +130,30 @@ hr{
     text-decoration: none;
 }
 
-.copyright{
+.copyright {
     color: #EAF6F6;
     line-height: 5;
 }
 
-.footer-link{
+.footer-link {
     color: #113f67;
     text-decoration: none;
 }
+
+/*****
+.skills div {
+    display: flex;
+    width: 50%;
+}
+
+.skill-row:first-of-type img {
+    width: 25%;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+*/
+
+
 .web_dev_img{
     border-radius: 50%;
     width: 25%;
